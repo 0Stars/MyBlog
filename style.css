@@ -32,8 +32,9 @@ h1 {
 
     font-size: 40px;
     line-height: 1.2;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 300;
+    text-align: center;
 }
 
 #name {
@@ -46,7 +47,8 @@ h2 {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.2;
-    font-family: monospace
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
 }
 
 #bio {
@@ -54,15 +56,17 @@ h2 {
     padding: 50px;
     text-align: center;
     font-size: 42px;
+    font-family: 'Quicksand', sans-serif;
 }
 .menu {
     list-style: none;
-    font-family: Verdana;
+    font-family: 'Quicksand', sans-serif;
     position: absolute;
-    top: 10px;
-    right: 30px;
+    top: 0px;
+    right: 0px;
     z-index: 10;
     cursor: pointer;
+    width: 100%; 
 }
 .links {
     float: left;
@@ -71,11 +75,11 @@ h2 {
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
-    font-family: cursive;
+    font-family: 'Quicksand', sans-serif;
     font-size: 25px;
 }
 .links:hover {
-    background-color: dodgerblue;
+    background-color:#004AAD;
 
 }
 .line {
@@ -83,6 +87,7 @@ h2 {
     background-color: #000;
     width: 70px;
     margin: 8px auto;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -91,6 +96,7 @@ p {
     margin: 25px auto;
     font-size: 17px;
     line-height: 1.3;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .parallax-inner {
@@ -99,5 +105,18 @@ p {
     position: relative;
     text-align: center;
     vertical-align: middle;
+    font-family: 'Quicksand', sans-serif;
 
+}
+#Apps {
+    width: 100%;
+    height: 800px;
+    background-color: #004AAD;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+#h3 {
+    display: inline;
+    font-family: 'Quicksand', sans-serif;
 }
