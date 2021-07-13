@@ -4,9 +4,10 @@ body {
 }
 
 .profile {
-    width: 175px;
+    height: 200px;
+    width: 200px;
     margin-bottom: 50px;
-    border-radius: 50%;
+    border-radius: 15%;
 }
 
 #welcome {
@@ -107,13 +108,6 @@ p {
     vertical-align: middle;
     font-family: 'Quicksand', sans-serif;
 
-}
-#Apps {
-    width: 100%;
-    height: 800px;
-    background-color: #004AAD;
-    font-family: 'Quicksand', sans-serif;
-    
 }
 
 #h3 {
